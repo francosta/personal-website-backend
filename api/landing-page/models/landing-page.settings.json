@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landingPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "landingText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

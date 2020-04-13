@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.image"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 290
+    },
+    "publishedDate": {
+      "type": "date",
+      "required": true
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technology.stack",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "networks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.network"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "components_technology_networks",
+  "info": {
+    "name": "network",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "network": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Youtube",
+        "Live"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "connection": "default",
+  "collectionName": "components_technology_technologies",
+  "info": {
+    "name": "technology",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

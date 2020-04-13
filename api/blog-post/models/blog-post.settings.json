@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "blog_posts",
+  "info": {
+    "name": "BlogPost"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date",
+      "required": true
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.image",
+      "required": true
+    },
+    "publicationStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Draft",
+        "Public"
+      ],
+      "default": "Draft",
+      "required": true
+    }
+  }
+}

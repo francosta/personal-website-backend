@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_technology_stacks",
+  "info": {
+    "name": "Stack",
+    "icon": "desktop"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.technology"
+    }
+  }
+}
