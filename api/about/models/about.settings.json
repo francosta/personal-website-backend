@@ -13,6 +13,12 @@
     "about_me": {
       "type": "richtext",
       "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
     }
   }
 }
