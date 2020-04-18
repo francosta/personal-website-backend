@@ -19,6 +19,12 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
     }
   }
 }
