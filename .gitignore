@@ -112,3 +112,4 @@ exports
 build
 yarn.lock
 .env
+extensions/upload/config
