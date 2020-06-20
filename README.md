@@ -15,4 +15,4 @@ There is a webhook which calls on the deployment endpoint to trigger a new build
 
 # Media Assets
 
-Media assets are hosted and managed using Amazon Web Services, through the [AWS S3 plugin](https://www.npmjs.com/package/strapi-provider-upload-aws-s3).
+Media assets are hosted and managed using Amazon Web Services, through the [Strapi AWS S3 plugin](https://www.npmjs.com/package/strapi-provider-upload-aws-s3).
